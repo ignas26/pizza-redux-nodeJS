@@ -1,0 +1,36 @@
+.drinkGnrl{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.drink{
+        margin-bottom:40px;
+        padding-bottom:20px;
+        background: #eee;
+        width: 20%;
+        border-radius: 12px;
+        position: relative;
+        &:hover{
+            //color: indianred;
+            background-color: indianred;
+        }
+        h3{
+            font-family: 'Architects Daughter', cursive;
+        }
+    }
+
+.drinkBtn {
+    background: #3498db;
+    width: 180px;
+    padding: 4px 0;
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 12px;
+    &:hover {
+        color: #d90075;
+    }
+}

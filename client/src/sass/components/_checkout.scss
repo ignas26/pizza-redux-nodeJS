@@ -1,0 +1,85 @@
+.deleteAll{
+    color: brown;
+    margin-top: 45px;
+}
+
+.delete{
+    margin-left: 50px;
+    color: red;
+    font-size: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+table{
+    margin: auto;
+    tr{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid indianred;
+    }
+    td{
+        border: 1px solid black;
+        margin: 10px;
+    }
+
+}
+
+.sum{
+    font-size: 30px;
+}
+
+.backdrop{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0, .5);
+}
+.popup{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    align-items: center;
+    top:-50%;
+    left:50%;
+    width:400px;
+    border-radius: 5px;
+    height:200px;
+    transition: .6s;
+    background: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.popup h3{
+    text-align: center;
+    font-size:22px;
+    width:100%;
+}
+.no, .yes{
+    font-size:20px;
+    padding:5px 10px;
+    margin:20px;
+    cursor: pointer;
+    user-select: none;
+}
+.yes{
+    color: green;
+    border:1px solid green;
+}
+.no{
+    color: red;
+    border:1px solid red;
+}
+
+.clear{
+    margin-left:10%;
+    border:1px solid red;
+    color: red;
+    font-size:16px;
+    cursor: pointer;
+    padding:5px 10px;
+    display: inline-block;
+}

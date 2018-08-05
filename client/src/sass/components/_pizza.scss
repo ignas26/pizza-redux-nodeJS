@@ -1,0 +1,43 @@
+.pizza-page {
+    .pizza-menu {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .pizza {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        width: 30%;
+        background: #eee;
+        position: relative;
+        &:hover {
+            //color: indianred;
+            background-color: indianred;
+        }
+        h3 {
+            font-family: 'Architects Daughter', cursive;
+        }
+    }
+
+    p {
+        font-size: 22px;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    .pizzaBtn {
+        background: #3498db;
+        width: 180px;
+        padding: 4px 0;
+        position: absolute;
+        left: 50%;
+        bottom: -5%;
+        transform: translateX(-50%) translateY(-50%);
+        border-radius: 12px;
+        &:hover {
+            color: #d90075;
+        }
+    }
+}
